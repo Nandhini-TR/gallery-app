@@ -1,0 +1,31 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.thumbnail-images-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.image {
+  height: 50%;
+  width: 60%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
